@@ -1,21 +1,38 @@
-# Customer-Demo-Vibe-Lab-Learner-Instructions
+# Customer Demo Vibe Lab
 
-Customize an interactive customer briefing for a fictional customer.
+Build a customer-specific interactive demo using GitHub Copilot CLI and VS Code.
 
-Give participants three customer briefs, for example:
+## Workshop outcome
 
- - Contoso Bank: improve contact-center operations
- - Fabrikam Manufacturing: reduce equipment downtime
- - Adventure Works: personalize retail experiences
+You will customize a working starter experience for a fictional customer by using this loop:
 
-Each brief should contain:
+**Describe → Generate → Run → Inspect → Refine → Share**
 
- - Customer profile
- - Audience
- - Business problem
- - Three priorities
- - Relevant products or capabilities
- - Brand colors
- - Desired call to action
+## Prerequisites
 
-Avoid confidential or real customer information.
+- GitHub account
+- Access to GitHub Codespaces
+- Access to GitHub Copilot
+- Modern web browser
+
+## Start the lab
+
+1. Select **Use this template**.
+2. Create a repository.
+3. Open the repository in a Codespace.
+4. Wait for setup to finish.
+5. Follow `CUSTOMIZE.md`.
+
+## Repository guide
+
+- `CUSTOMIZE.md` — main participant instructions
+- `CHALLENGES.md` — optional enhancement challenges
+- `FACILITATOR.md` — delivery and troubleshooting notes
+- `.github/prompts/` — reusable Copilot prompts
+- `starter/` — customer briefs and sample data
+- `examples/` — completed reference experience
+
+## Run the application
+
+```bash
+npm run dev
