@@ -1,6 +1,6 @@
 # Customer-Demo-Vibe-Lab-Learner-Instructions
 
-Customize an interactive customer briefing for a fictional customer.
+#Customize an interactive customer briefing for a fictional customer.
 
 Give participants three customer briefs, for example:
 
