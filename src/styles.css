@@ -1,0 +1,74 @@
+:root {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #17212b;
+  background: #f4f7f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  min-height: 70vh;
+  display: grid;
+  align-content: center;
+  padding: clamp(2rem, 8vw, 7rem);
+  color: white;
+  background: linear-gradient(135deg, #063970, #087e8b);
+}
+
+.eyebrow {
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  max-width: 800px;
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 6rem);
+}
+
+.summary {
+  max-width: 650px;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+button {
+  width: fit-content;
+  padding: 0.9rem 1.2rem;
+  border: 0;
+  border-radius: 4px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 4rem 2rem;
+}
+
+.scenario-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+article {
+  padding: 1.5rem;
+  border-left: 4px solid #087e8b;
+  background: white;
+}
+
+@media (max-width: 700px) {
+  .scenario-grid {
+    grid-template-columns: 1fr;
+  }
+}
