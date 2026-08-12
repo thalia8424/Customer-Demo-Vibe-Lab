@@ -48,12 +48,6 @@ If you created a repository from the template and opened it in a Codespace, do n
 
 Open [`CUSTOMIZE.md`](CUSTOMIZE.md) and begin with **Checkpoint 1**.
 
-### Already in your learner repository?
-
-If you created a repository from the template and opened it in a Codespace, do not select **Use this template** again.
-
-Open [`CUSTOMIZE.md`](CUSTOMIZE.md) and begin with **Checkpoint 1**.
-
 ## Demo structure
 
 Every demo follows an MTT-led customer conversation:
