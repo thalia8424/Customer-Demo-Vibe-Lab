@@ -27,12 +27,26 @@ No local development environment is required.
 
 ## Start the lab
 
-1. Select **Use this template**.
-2. Create your own repository.
-3. Open the new repository in a Codespace.
-4. Wait for dependency installation to finish.
-5. Open `CUSTOMIZE.md`.
-6. Begin with **Checkpoint 1**.
+### Starting from the original template repository
+
+If you have not yet created your own learner repository:
+
+1. Open the [Customer Demo Vibe Lab template](https://github.com/thalia8424/Customer-Demo-Vibe-Lab).
+2. Select **Use this template**.
+3. Select **Create a new repository**.
+4. Enter a name for your repository.
+5. Select **Create repository**.
+6. In your new repository, select **Code**.
+7. Select the **Codespaces** tab.
+8. Select **Create codespace on main**.
+9. Wait for setup to finish.
+10. Open [`CUSTOMIZE.md`](CUSTOMIZE.md) and begin with **Checkpoint 1**.
+
+### Already in your learner repository?
+
+If you created a repository from the template and opened it in a Codespace, do not select **Use this template** again.
+
+Open [`CUSTOMIZE.md`](CUSTOMIZE.md) and begin with **Checkpoint 1**.
 
 ## Demo structure
 
